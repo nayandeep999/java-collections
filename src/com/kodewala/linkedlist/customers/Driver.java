@@ -1,13 +1,13 @@
 package com.kodewala.linkedlist.customers;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Driver {
 
 	public static void main(String[] args) {
 		CustomerDetails c = new CustomerDetails();
 
-		ArrayList<String> custDetails = c.cusDetails();
+		LinkedList<String> custDetails = c.cusDetails();
 
 		for (String cus : custDetails) {
 			if (cus.endsWith("ra")) {
