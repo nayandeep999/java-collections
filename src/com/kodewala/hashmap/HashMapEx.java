@@ -10,12 +10,12 @@ public class HashMapEx {
 		statesAndCapitals.put("KA", "BLR");
 		statesAndCapitals.put("MH", "MUM");
 		statesAndCapitals.put("BH", "PT");
-		
-		for(<String,String> sc :statesAndCapitals) {
-		
-		}
 
-		System.out.println(statesAndCapitals);
+		statesAndCapitals.forEach((k, v) -> {
+			System.out.println("Key: " + k + ", Value: " + v);
+		});
+
+		System.out.printf("\n" + statesAndCapitals);
 	}
 
 }
