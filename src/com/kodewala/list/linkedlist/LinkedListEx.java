@@ -1,4 +1,4 @@
-package com.kodewala.linkedlist;
+package com.kodewala.list.linkedlist;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package com.kodewala.hashset;
+package com.kodewala.set.hashset;
 
 import java.util.HashSet;
 

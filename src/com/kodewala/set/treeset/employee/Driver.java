@@ -1,4 +1,4 @@
-package com.kodewala.treeset.employee;
+package com.kodewala.set.treeset.employee;
 
 import java.util.TreeSet;
 

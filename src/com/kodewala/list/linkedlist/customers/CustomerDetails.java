@@ -1,12 +1,12 @@
-package com.kodewala.arraylist.customers;
+package com.kodewala.list.linkedlist.customers;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class CustomerDetails {
 
-	public ArrayList<String> cusDetails() {
+	public LinkedList<String> cusDetails() {
 
-		ArrayList<String> cus = new ArrayList<String>();
+		LinkedList<String> cus = new LinkedList<String>();
 		cus.add("Mahindra");
 		cus.add("Shailendra");
 		cus.add("Nayandeep");

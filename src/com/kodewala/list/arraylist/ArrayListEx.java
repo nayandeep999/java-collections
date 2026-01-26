@@ -1,4 +1,4 @@
-package com.kodewala.arraylist;
+package com.kodewala.list.arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;

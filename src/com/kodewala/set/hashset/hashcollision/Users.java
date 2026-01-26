@@ -1,4 +1,4 @@
-package com.kodewala.hashset.hashcollison;
+package com.kodewala.set.hashset.hashcollision;
 
 import java.util.HashSet;
 

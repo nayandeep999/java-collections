@@ -1,4 +1,4 @@
-package com.kodewala.hashset.linkedhashset;
+package com.kodewala.set.linkedhashset;
 
 import java.util.LinkedHashSet;
 
