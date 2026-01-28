@@ -44,7 +44,18 @@ public class HashMapItr {
 			System.out.println(ent.getKey() + " " + ent.getValue());
 		}
 
-		// Set<Entry<String,String>> setOfGc2
+		Set<Entry<String, String>> setOfGc2 = gcAndModel.entrySet();
+		Iterator<Entry<String, String>> itr3 = setOfGc2.iterator();
+
+		Iterator<Entry<String, String>> itr4 = gcAndModel.entrySet().iterator();
+
+		Iterator<Entry<String, String>> itr5 = gcAndModel.entrySet().iterator();
+
+		Iterator<Entry<String, String>> itr6 = gcAndModel.entrySet().iterator();
+
+		while (itr6.hasNext()) {
+			System.out.println(itr6.next());
+		}
 
 	}
 
